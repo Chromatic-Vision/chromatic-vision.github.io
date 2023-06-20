@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'liber';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/liber.ttf);
+}
+
+@keyframes btmove {
+    0% {
+        margin-left: 40%;
+        color: rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        margin-left: 15%;
+        color: rgba(255, 255, 255, 255);
+    }
+}
+
+@keyframes lamove {
+    0% {
+        left: 40%;
+        color: rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        left: 16.2%;
+        color: rgba(255, 255, 255, 255);
+    }
+}
+
+body {
+    font-family: 'liber', sans-serif;
+
+    background-image: url('assets/images/forest-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 200px;
+
+    margin-top: 18%;
+
+    animation-name: btmove;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+a {
+    font-size: 25px;
+
+    top: 60.5%;
+    position: absolute;
+
+    animation-name: lamove;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+}
