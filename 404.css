@@ -6,6 +6,7 @@
 }
 
 @keyframes btmove {
+
     0% {
         margin-left: 40%;
         color: rgba(255, 255, 255, 0);
@@ -32,9 +33,8 @@
 body {
     font-family: 'liber', sans-serif;
 
-    background-image: url('assets/images/forest-background.png');
+    background: url("assets/images/forest-background.png") no-repeat fixed;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h1 {
