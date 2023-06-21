@@ -1,34 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>Chromatic Vision</title>
-	  
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="scripts/style.css" rel="stylesheet">
-	  
-    <style>
-      body {
-        background-image: url('assets/images/chromatic.png');
-        font-family: 'Montserrat'; font-size: 20px;
-      }
+	<head>
+		<title>Chromatic Vision</title>
 
-      .square {
-        position: absolute;
-        z-index: -32766;
-        height: 400px;
-        width: 1000px;
-        margin-left: -15%;
-        margin-top: -7.15%;
-        background-color: #000000;
-        border-radius: 15px;
-      }
-    </style>
-    </head>
-  <body>
-    <div class="square"></div>
-    <h1 style="color:white">Chromatic.</h1>
-    <b style="color:white">Chromatic Vision is the parent company of smaller companies.</b><br><br>
-    <a style="color:white" href="https://github.com/chromatic-vision">Github</a><br>
-    <a style="color:white" href="./basicbass.html">BasicBass</a><br>
-  </body>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="scripts/style.css" rel="stylesheet">
+		<link href="background.js" rel="text/javascript">
+
+		<style>
+			body {
+				background-image: url('assets/chromatic.png');
+				font-family: 'Montserrat'; font-size: 20px;
+				background-size: cover;
+
+				margin-left: 0px;
+				margin-right: 0px;
+
+				text-align: center;
+			}
+
+			.square-container {
+				position: relative;
+				width: 70%;
+				margin: auto;
+			}
+			.square {
+				background-color: #000000;
+				border-radius: 15px;
+
+				/* width: 100%; */
+				padding: 20px;
+			}
+
+			body * {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="square-container">
+			<div class="square">
+				<h1>Chromatic</h1>
+
+				<p><b>Chromatic Vision is the parent company of smaller companies.</b></p>
+				<a href="https://github.com/chromatic-vision">Github</a><br>
+				<a href="./basicbass.html">BasicBass</a>
+			</div>
+		</div>
+	</body>
 </html>
